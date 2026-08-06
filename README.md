@@ -1,7 +1,7 @@
 # juliadrab.github.io
-Julia Drab — Przestrzeń Twórcza
+### Julia Drab — Przestrzeń Twórcza
 
-Autorska strona internetowa stanowiąca cyfrowe portfolio oraz archiwum twórczości artystycznej. Serwis łączy w sobie trzy główne dziedziny sztuki: fotografię grafikę oraz poezję.
+Autorska strona internetowa stanowiąca cyfrowe portfolio oraz archiwum twórczości artystycznej. Serwis łączy w sobie trzy główne dziedziny sztuki: fotografię, grafikę oraz poezję.
 
 🔗 https://juliadrab.github.io/
 
@@ -12,3 +12,5 @@ Użyte języki:
 * HTML
 * CSS
 * JavaScript
+
+© 2026 Julia Drab. Wszelkie prawa zastrzeżone.
