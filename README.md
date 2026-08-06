@@ -13,4 +13,5 @@ Użyte języki:
 * CSS
 * JavaScript
 
+---
 © 2026 Julia Drab. Wszelkie prawa zastrzeżone.
