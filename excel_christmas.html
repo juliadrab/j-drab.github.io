@@ -41,57 +41,7 @@
             margin-bottom: 40px;
         }
 
-        /* --- BLOK CAŁEJ WYSTAWY --- */
-        .wystawa-link {
-            text-decoration: none;
-            color: inherit;
-            margin-bottom: 50px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
 
-        .wystawa-tytul {
-            font-size: 1.4rem;
-            color: #ffffff;
-            margin-bottom: 15px;
-            text-align: center;
-            width: 100%;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-            border-left: 3px solid #4cc9f0;
-            padding-left: 10px;
-        }
-
-        /* Kontener na pokaz slajdów - jedno duże zdjęcie */
-        .slideshow-kontener {
-            position: relative;
-            width: 70%;
-            height: 700px; 
-            margin: 0 auto;
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.4);
-            border: 1px solid #3a506b;
-        }
-
-        /* Styl dla pojedynczego slajdu */
-        .slajd {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover; /* zdjęcie wypełnia całą przestrzeń bez zniekształceń */
-            opacity: 0;
-            transition: opacity 1s ease-in-out; /* płynne przenikanie zdjęć, efekt fade */
-        }
-
-        /* Klasa aktywnego slajdu, który aktualnie widać */
-        .slajd.aktywny {
-            opacity: 1;
-        }
 
         footer {
             text-align: center; /* Wyśrodkowanie tekstu */
@@ -112,6 +62,11 @@
     <h1>Merry Christmas w Excelu</h1>
     <p class="subtitle">Interaktywna kartka świąteczna stworzona w arkuszu kalkulacyjnym</p>
 
+    <div class="project-preview">
+        <img src="projects/excel.jpg" alt="Kartka świąteczna Excel">
+    </div>
+
+    
     <div class="project-description">
       
       <h3>O projekcie:</h3>
@@ -125,4 +80,17 @@
       <a href="merry-christmas.xlsx" download class="btn"> Pobierz plik .xlsx</a>
       
     </div>
-  
+
+
+    
+    
+<footer>
+    <p>© <span id="rok"></span> Julia Drab. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+    
+    <script>
+    document.getElementById("rok").textContent = new Date().getFullYear();
+    </script>
+    
+</body>
+</html>
